@@ -1,0 +1,9 @@
+2025-11-23 14:15:32,722 - __main__ - INFO - Starting Lab Control Software
+2025-11-23 14:15:33,151 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-23 14:15:33,151 - core.app - INFO - Initializing application subsystems
+2025-11-23 14:15:33,151 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-23 14:15:33,151 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-23 14:15:33,151 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-23 14:15:33,151 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-23 14:15:33,202 - gui.main_window - INFO - Main window initialized
+2025-11-23 14:15:33,234 - __main__ - INFO - Application started successfully

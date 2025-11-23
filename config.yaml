@@ -1,0 +1,25 @@
+camera:
+  type: "andor_sdk2"
+  index: 0
+  default_exposure: 100 # ms
+  default_gain: 1
+  target_temperature: -70 # °C
+
+adwin:
+  device_number: 1
+  process_file: "laser_control.TB1"
+
+processing:
+  use_gpu: false
+  pipeline:
+    - background_subtraction
+    - gaussian_filter
+    - centroid_detection
+
+control:
+  loop_rate_hz: 10
+  pid:
+    kp: 1.0
+    ki: 0.1
+    kd: 0.01
+  output_limits: [0, 100]
