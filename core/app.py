@@ -2,16 +2,23 @@
 Main Application Controller
 Coordinates all subsystems
 """
-import logging
-import numpy as np
-from typing import Optional, Dict, Any
 
-from hardware.andor_camera import AndorSDK2Camera
-from hardware.adwin_board import AdWinGoldIII
-from hardware.mock_devices import MockCamera, MockAdWin
-from processing.pipeline import ProcessingPipeline, background_subtraction, gaussian_filter, find_centroids
-from control.feedback_loop import FeedbackLoop, ControlSetpoint
+import logging
+from typing import Any, Dict, Optional
+
+import numpy as np
+
+from control.feedback_loop import ControlSetpoint, FeedbackLoop
 from control.pid_controller import PIDController
+from hardware.adwin_board import AdWinGoldIII
+from hardware.andor_camera import AndorSDK2Camera
+from hardware.mock_devices import MockAdWin, MockCamera
+from processing.pipeline import (
+    ProcessingPipeline,
+    background_subtraction,
+    find_centroids,
+    gaussian_filter,
+)
 
 
 class LabControlApplication:
@@ -41,16 +48,16 @@ class LabControlApplication:
         self.logger.info("Initializing application subsystems")
 
         # Initialize processing pipeline
-        use_gpu = self.config.get('processing', {}).get('use_gpu', True)
+        use_gpu = self.config.get("processing", {}).get("use_gpu", True)
         self.pipeline = ProcessingPipeline(use_gpu=use_gpu)
 
         # Add processors based on config
-        pipeline_steps = self.config.get('processing', {}).get('pipeline', [])
-        if 'background_subtraction' in pipeline_steps:
+        pipeline_steps = self.config.get("processing", {}).get("pipeline", [])
+        if "background_subtraction" in pipeline_steps:
             self.pipeline.add_processor(background_subtraction)
-        if 'gaussian_filter' in pipeline_steps:
+        if "gaussian_filter" in pipeline_steps:
             self.pipeline.add_processor(gaussian_filter)
-        if 'centroid_detection' in pipeline_steps:
+        if "centroid_detection" in pipeline_steps:
             self.pipeline.add_processor(find_centroids)
 
     # Camera methods
@@ -58,17 +65,17 @@ class LabControlApplication:
     def connect_camera(self) -> bool:
         """Connect to camera"""
         try:
-            cam_config = self.config.get('camera', {})
-            camera_index = cam_config.get('index', 0)
+            cam_config = self.config.get("camera", {})
+            camera_index = cam_config.get("index", 0)
 
             self.camera = AndorSDK2Camera(camera_index=camera_index)
             success = self.camera.connect()
 
             if success:
                 # Apply default settings
-                exposure = cam_config.get('default_exposure', 100)
-                gain = cam_config.get('default_gain', 1)
-                temp = cam_config.get('target_temperature', -70)
+                exposure = cam_config.get("default_exposure", 100)
+                gain = cam_config.get("default_gain", 1)
+                temp = cam_config.get("target_temperature", -70)
 
                 self.camera.set_exposure(exposure)
                 self.camera.set_gain(gain)
@@ -137,15 +144,16 @@ class LabControlApplication:
     def connect_adwin(self) -> bool:
         """Connect to AdWin board"""
         try:
-            adwin_config = self.config.get('adwin', {})
-            device_number = adwin_config.get('device_number', 1)
+            adwin_config = self.config.get("adwin", {})
+            device_number = adwin_config.get("device_number", 1)
 
             self.adwin = AdWinGoldIII(device_number=device_number)
             success = self.adwin.connect()
 
             if success:
                 # Load process if specified
-                process_file = adwin_config.get('process_file')
+                process_file = adwin_config.get("process_file")
+                print(process_file)
                 if process_file:
                     self.adwin.load_process(process_file)
                     self.adwin.start_process()
@@ -178,26 +186,24 @@ class LabControlApplication:
 
         try:
             # Create PID controller
-            control_config = self.config.get('control', {})
-            output_limits = tuple(control_config.get('output_limits', [0, 100]))
+            control_config = self.config.get("control", {})
+            output_limits = tuple(control_config.get("output_limits", [0, 100]))
 
             self.pid_controller = PIDController(kp, ki, kd, output_limits=output_limits)
 
             # Create feedback loop
-            loop_rate = control_config.get('loop_rate_hz', 10.0)
+            loop_rate = control_config.get("loop_rate_hz", 10.0)
             self.feedback_loop = FeedbackLoop(
                 self.camera,
                 self.pipeline,
                 self.pid_controller,
                 self.adwin,
-                loop_rate_hz=loop_rate
+                loop_rate_hz=loop_rate,
             )
 
             # Set setpoint (assuming we're controlling centroid_x)
             control_setpoint = ControlSetpoint(
-                target_value=setpoint,
-                tolerance=5.0,
-                parameter_name="centroid_x"
+                target_value=setpoint, tolerance=5.0, parameter_name="centroid_x"
             )
             self.feedback_loop.set_setpoint(control_setpoint)
 

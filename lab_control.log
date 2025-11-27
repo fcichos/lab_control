@@ -7,3 +7,130 @@
 2025-11-23 14:15:33,151 - processing.pipeline - INFO - Added processor: find_centroids
 2025-11-23 14:15:33,202 - gui.main_window - INFO - Main window initialized
 2025-11-23 14:15:33,234 - __main__ - INFO - Application started successfully
+2025-11-26 17:57:55,702 - __main__ - INFO - Starting Lab Control Software
+2025-11-26 17:57:55,837 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-26 17:57:55,837 - core.app - INFO - Initializing application subsystems
+2025-11-26 17:57:55,838 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-26 17:57:55,838 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-26 17:57:55,838 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-26 17:57:55,838 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-26 17:57:55,885 - gui.main_window - INFO - Main window initialized
+2025-11-26 17:57:55,911 - __main__ - INFO - Application started successfully
+2025-11-26 17:58:01,007 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-26 17:58:01,007 - hardware.adwin_board - ERROR - Failed to connect to AdWin: Function Processor_Type, errorNumber 2001: Network timeout.
+2025-11-26 17:58:16,095 - core.app - INFO - Shutting down application
+2025-11-26 17:58:16,095 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-26 20:24:43,186 - __main__ - INFO - Starting Lab Control Software
+2025-11-26 20:24:45,843 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-26 20:24:45,844 - core.app - INFO - Initializing application subsystems
+2025-11-26 20:24:45,844 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-26 20:24:45,844 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-26 20:24:45,844 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-26 20:24:45,844 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-26 20:24:45,902 - gui.main_window - INFO - Main window initialized
+2025-11-26 20:24:45,937 - __main__ - INFO - Application started successfully
+2025-11-26 20:24:52,986 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-26 20:24:52,988 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-26 20:24:52,988 - hardware.adwin_board - ERROR - Failed to load process: Process file not found: laser_control.TB1
+2025-11-26 20:24:52,989 - hardware.adwin_board - INFO - Started process 1
+2025-11-26 20:24:52,989 - core.app - INFO - AdWin connected
+2025-11-26 20:26:35,753 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-26 20:26:35,753 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-26 20:26:35,753 - hardware.adwin_board - ERROR - Failed to load process: Process file not found: laser_control.TB1
+2025-11-26 20:26:35,754 - hardware.adwin_board - INFO - Started process 1
+2025-11-26 20:26:35,754 - core.app - INFO - AdWin connected
+2025-11-26 20:26:36,999 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-26 20:26:36,999 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-26 20:26:36,999 - hardware.adwin_board - ERROR - Failed to load process: Process file not found: laser_control.TB1
+2025-11-26 20:26:37,000 - hardware.adwin_board - INFO - Started process 1
+2025-11-26 20:26:37,000 - core.app - INFO - AdWin connected
+2025-11-26 20:26:37,915 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-26 20:26:37,916 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-26 20:26:37,916 - hardware.adwin_board - ERROR - Failed to load process: Process file not found: laser_control.TB1
+2025-11-26 20:26:37,916 - hardware.adwin_board - INFO - Started process 1
+2025-11-26 20:26:37,916 - core.app - INFO - AdWin connected
+2025-11-26 20:26:40,360 - core.app - ERROR - Cannot start feedback: hardware not connected
+2025-11-26 20:26:42,206 - core.app - ERROR - Cannot start feedback: hardware not connected
+2025-11-26 21:07:41,823 - __main__ - INFO - Starting Lab Control Software
+2025-11-26 21:07:41,926 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-26 21:07:41,926 - core.app - INFO - Initializing application subsystems
+2025-11-26 21:07:41,926 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-26 21:07:41,926 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-26 21:07:41,926 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-26 21:07:41,926 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-26 21:07:41,979 - gui.main_window - INFO - Main window initialized
+2025-11-26 21:07:42,010 - __main__ - INFO - Application started successfully
+2025-11-26 21:19:58,679 - core.app - ERROR - Cannot start feedback: hardware not connected
+2025-11-27 09:11:46,195 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 09:11:49,705 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 09:11:49,705 - core.app - INFO - Initializing application subsystems
+2025-11-27 09:11:49,705 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 09:11:49,705 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 09:11:49,705 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 09:11:49,705 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 09:11:49,771 - gui.main_window - INFO - Main window initialized
+2025-11-27 09:11:49,798 - __main__ - INFO - Application started successfully
+2025-11-27 09:12:15,752 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 09:12:15,755 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 09:12:16,022 - hardware.adwin_board - ERROR - Failed to load process: Function Load_Process, errorNumber 2: Timeout error on reading from the ADwin-system.
+2025-11-27 09:12:16,289 - hardware.adwin_board - ERROR - Failed to start process: Function Start_Process, errorNumber 2: Timeout error on reading from the ADwin-system.
+2025-11-27 09:12:16,289 - core.app - INFO - AdWin connected
+2025-11-27 09:17:24,941 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 09:17:25,008 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 09:17:25,008 - core.app - INFO - Initializing application subsystems
+2025-11-27 09:17:25,008 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 09:17:25,008 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 09:17:25,008 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 09:17:25,008 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 09:17:25,041 - gui.main_window - INFO - Main window initialized
+2025-11-27 09:17:25,069 - __main__ - INFO - Application started successfully
+2025-11-27 09:17:29,684 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 09:17:29,687 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 09:17:29,954 - hardware.adwin_board - ERROR - Failed to load process: Function Load_Process, errorNumber 2: Timeout error on reading from the ADwin-system.
+2025-11-27 09:17:30,221 - hardware.adwin_board - ERROR - Failed to start process: Function Start_Process, errorNumber 2: Timeout error on reading from the ADwin-system.
+2025-11-27 09:17:30,221 - core.app - INFO - AdWin connected
+2025-11-27 09:20:20,859 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 09:20:20,921 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 09:20:20,921 - core.app - INFO - Initializing application subsystems
+2025-11-27 09:20:20,921 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 09:20:20,921 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 09:20:20,921 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 09:20:20,921 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 09:20:20,953 - gui.main_window - INFO - Main window initialized
+2025-11-27 09:20:20,977 - __main__ - INFO - Application started successfully
+2025-11-27 09:20:24,052 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 09:20:24,055 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 09:20:24,055 - hardware.adwin_board - ERROR - Failed to connect to AdWin: 'AdWinGoldIII' object has no attribute 'adwin'
+2025-11-27 09:21:46,712 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 09:21:46,713 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 09:21:46,713 - hardware.adwin_board - ERROR - Failed to connect to AdWin: 'AdWinGoldIII' object has no attribute 'adwin'
+2025-11-27 09:22:22,650 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 09:22:22,651 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 09:22:22,651 - hardware.adwin_board - ERROR - Failed to connect to AdWin: 'AdWinGoldIII' object has no attribute 'adwin'
+2025-11-27 09:22:28,079 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 09:22:28,080 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 09:22:28,080 - hardware.adwin_board - ERROR - Failed to connect to AdWin: 'AdWinGoldIII' object has no attribute 'adwin'
+2025-11-27 09:23:22,584 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 09:23:22,646 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 09:23:22,646 - core.app - INFO - Initializing application subsystems
+2025-11-27 09:23:22,646 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 09:23:22,646 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 09:23:22,646 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 09:23:22,646 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 09:23:22,678 - gui.main_window - INFO - Main window initialized
+2025-11-27 09:23:22,706 - __main__ - INFO - Application started successfully
+2025-11-27 09:23:28,649 - core.app - ERROR - Failed to connect AdWin: 'AdWinGoldIII' object has no attribute 'adwin'
+2025-11-27 09:23:48,563 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 09:23:48,625 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 09:23:48,625 - core.app - INFO - Initializing application subsystems
+2025-11-27 09:23:48,625 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 09:23:48,625 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 09:23:48,625 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 09:23:48,625 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 09:23:48,657 - gui.main_window - INFO - Main window initialized
+2025-11-27 09:23:48,681 - __main__ - INFO - Application started successfully
+2025-11-27 09:23:54,450 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 09:23:54,450 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 09:23:54,451 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 09:23:54,452 - hardware.adwin_board - INFO - Started process 1
+2025-11-27 09:23:54,452 - core.app - INFO - AdWin connected

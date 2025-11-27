@@ -7,7 +7,7 @@ camera:
 
 adwin:
   device_number: 1
-  process_file: "laser_control.TB1"
+  process_file: "GoldII 16 Channels analog packed.TB9"
 
 processing:
   use_gpu: false

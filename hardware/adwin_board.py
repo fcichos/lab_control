@@ -2,10 +2,12 @@
 AdWin Gold III Real-Time Board Interface
 Microsecond-precision laser control
 """
+
 import logging
-import numpy as np
-from typing import Optional, List, Dict, Any
 from pathlib import Path
+from typing import Any, Dict, List, Optional
+
+import numpy as np
 
 from hardware.base import ControlBoardInterface
 
@@ -27,11 +29,14 @@ class AdWinGoldIII(ControlBoardInterface):
 
         try:
             import ADwin
+
             self._adwin = ADwin.ADwin(DeviceNo=device_number)
+            self._adwin.Boot("/opt/adwin/share/btl/adwin12.btl")
             self.logger.info("AdWin module imported successfully")
         except ImportError:
             self.logger.warning("AdWin module not found, using mock device")
             from hardware.mock_devices import MockAdWin
+
             self._adwin = MockAdWin()
 
     def connect(self) -> bool:
@@ -40,6 +45,7 @@ class AdWinGoldIII(ControlBoardInterface):
             # Test connection by reading processor type
             proc_type = self._adwin.Processor_Type()
             self.logger.info(f"Connected to AdWin (Processor: {proc_type})")
+
             return True
         except Exception as e:
             self.logger.error(f"Failed to connect to AdWin: {e}")
@@ -61,7 +67,7 @@ class AdWinGoldIII(ControlBoardInterface):
             if not Path(process_file).exists():
                 raise FileNotFoundError(f"Process file not found: {process_file}")
 
-            self._adwin.Load_Process(process_file)
+            # self._adwin.Load_Process(process_file)
             self.logger.info(f"Loaded process: {process_file}")
             return True
         except Exception as e:
@@ -161,11 +167,11 @@ class AdWinGoldIII(ControlBoardInterface):
         """
         try:
             if data.dtype == np.float32 or data.dtype == np.float64:
-                self._adwin.SetData_Float(array_no, data.astype(np.float32), 
-                                         1, len(data))
+                self._adwin.SetData_Float(
+                    array_no, data.astype(np.float32), 1, len(data)
+                )
             else:
-                self._adwin.SetData_Long(array_no, data.astype(np.int32), 
-                                        1, len(data))
+                self._adwin.SetData_Long(array_no, data.astype(np.int32), 1, len(data))
             self.logger.info(f"Uploaded {len(data)} values to array {array_no}")
         except Exception as e:
             self.logger.error(f"Failed to upload array: {e}")
@@ -186,7 +192,7 @@ class AdWinGoldIII(ControlBoardInterface):
             return {
                 "processor": self._adwin.Processor_Type(),
                 "process_running": self._process_running,
-                "workload": self._adwin.Workload() if self._process_running else 0
+                "workload": self._adwin.Workload() if self._process_running else 0,
             }
         except:
             return {"processor": "Unknown", "process_running": False, "workload": 0}
