@@ -121,6 +121,10 @@ class MainWindow(QMainWindow):
         power_layout.addWidget(self.btn_set_power)
         layout.addLayout(power_layout)
 
+        # Read buffer button
+        self.btn_read_buffer = QPushButton("Read Buffer")
+        layout.addWidget(self.btn_read_buffer)
+
         # Feedback controls
         feedback_group = QGroupBox("Feedback Control")
         feedback_layout = QVBoxLayout()
@@ -165,6 +169,7 @@ class MainWindow(QMainWindow):
 
         self.btn_connect_adwin.clicked.connect(self.on_connect_adwin)
         self.btn_set_power.clicked.connect(self.on_set_laser_power)
+        self.btn_read_buffer.clicked.connect(self.on_read_buffer)
 
         self.btn_start_feedback.clicked.connect(self.on_start_feedback)
         self.btn_stop_feedback.clicked.connect(self.on_stop_feedback)
@@ -205,6 +210,17 @@ class MainWindow(QMainWindow):
         power = self.spin_laser_power.value()
         self.app.set_laser_power(power)
         self.status_bar.showMessage(f"Laser power set to {power}%", 3000)
+
+    def on_read_buffer(self):
+        """Read AdWin 16-channel buffer"""
+        data = self.app.read_adwin_buffer()
+        if data is not None:
+            self.status_bar.showMessage(f"Got buffer data: {data.shape}", 3000)
+            self.logger.info(
+                f"Buffer data shape: {data.shape}, min: {data.min()}, max: {data.max()}"
+            )
+        else:
+            self.status_bar.showMessage("No buffer data available", 3000)
 
     def on_start_feedback(self):
         """Start feedback control"""

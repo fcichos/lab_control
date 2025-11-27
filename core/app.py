@@ -4,6 +4,7 @@ Coordinates all subsystems
 """
 
 import logging
+import time
 from typing import Any, Dict, Optional
 
 import numpy as np
@@ -155,8 +156,8 @@ class LabControlApplication:
                 process_file = adwin_config.get("process_file")
                 print(process_file)
                 if process_file:
-                    self.adwin.load_process(process_file)
-                    self.adwin.start_process()
+                    ret = self.adwin.load_process(process_file)
+                    self.adwin.start_process(9)  # Process 9 for 1-channel analog
 
                 self.logger.info("AdWin connected")
 
@@ -170,6 +171,35 @@ class LabControlApplication:
         if self.adwin:
             self.adwin.disconnect()
             self.adwin = None
+
+    def read_adwin_buffer(self) -> Optional[np.ndarray]:
+        """
+        Read 16-channel packed data buffer from AdWin
+
+        Returns:
+            NumPy array of shape (n_steps, 16) or None if no data available
+        """
+        if not self.adwin:
+            self.logger.error("AdWin not connected")
+            return None
+
+        try:
+            # Get buffer size from DATA_181[3]
+            buffer_size = self.adwin.get_long(180, 3)
+
+            # Check write pointer DATA_180[1]
+            wp = self.adwin.get_long(180, 1)
+            # if wp > 0:
+            #     # Read packed buffer
+            #     data = self.adwin.read_packed_buffer(buffer_size)
+            #     self.logger.debug(f"Got data: {data.shape}")
+            #     return data
+
+            return None
+
+        except Exception as e:
+            self.logger.error(f"Failed to read AdWin buffer: {e}")
+            return None
 
     def set_laser_power(self, power_percent: float):
         """Set laser power"""

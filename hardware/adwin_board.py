@@ -51,6 +51,17 @@ class AdWinGoldIII(ControlBoardInterface):
             self.logger.error(f"Failed to connect to AdWin: {e}")
             return False
 
+    def debug_adwin_methods(self):
+        """Print all available methods on ADwin object for debugging"""
+        if self._adwin:
+            methods = [m for m in dir(self._adwin) if not m.startswith("_")]
+            self.logger.info(f"Available ADwin methods: {methods}")
+            print("Available ADwin methods:")
+            for m in methods:
+                print(f"  - {m}")
+        else:
+            self.logger.warning("ADwin object not initialized")
+
     def disconnect(self):
         """Disconnect from AdWin"""
         self.stop_process()
@@ -67,14 +78,15 @@ class AdWinGoldIII(ControlBoardInterface):
             if not Path(process_file).exists():
                 raise FileNotFoundError(f"Process file not found: {process_file}")
 
-            # self._adwin.Load_Process(process_file)
+            self._adwin.Load_Process(process_file)
+            self._adwin.Set_Processdelay(9, 200000)
             self.logger.info(f"Loaded process: {process_file}")
             return True
         except Exception as e:
             self.logger.error(f"Failed to load process: {e}")
             return False
 
-    def start_process(self, process_no: int = 1) -> bool:
+    def start_process(self, process_no: int = 9) -> bool:
         """Start real-time process on AdWin"""
         try:
             self._adwin.Start_Process(process_no)
@@ -196,3 +208,27 @@ class AdWinGoldIII(ControlBoardInterface):
             }
         except:
             return {"processor": "Unknown", "process_running": False, "workload": 0}
+
+    def get_long(self, data_no: int, index: int) -> int:
+        """
+        Get a LONG value from AdWin data array or parameter
+
+        Args:
+            data_no: Data array number (e.g., 181 for DATA_181)
+            index: Array index (1-based)
+
+        Returns:
+            Long integer value
+        """
+        try:
+            # Try Data_Get_Long method name (common ADwin Python API naming)
+            # print(self._adwin.Data_Length(180))
+            # print(self._adwin.Data_Length(181))
+            # return 0
+            result = self._adwin.GetData_Long(181, 1, 100)
+            print(result[0])
+            return 0
+            # return result[0] if isinstance(result, (list, tuple)) else result
+        except Exception as e:
+            self.logger.error(f"Failed to get long DATA_{data_no}[{index}]: {e}")
+            return 0

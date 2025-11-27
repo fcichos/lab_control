@@ -134,3 +134,591 @@
 2025-11-27 09:23:54,451 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
 2025-11-27 09:23:54,452 - hardware.adwin_board - INFO - Started process 1
 2025-11-27 09:23:54,452 - core.app - INFO - AdWin connected
+2025-11-27 11:00:04,764 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 11:00:04,839 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 11:00:04,839 - core.app - INFO - Initializing application subsystems
+2025-11-27 11:00:04,839 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 11:00:04,839 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 11:00:04,839 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 11:00:04,839 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 11:00:04,874 - gui.main_window - INFO - Main window initialized
+2025-11-27 11:00:04,903 - __main__ - INFO - Application started successfully
+2025-11-27 11:00:11,712 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 11:00:11,712 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 11:00:11,712 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 11:00:11,713 - hardware.adwin_board - INFO - Started process 1
+2025-11-27 11:00:11,713 - core.app - INFO - AdWin connected
+2025-11-27 11:00:15,511 - core.app - ERROR - Failed to read AdWin buffer: 'ADwin' object has no attribute 'Get_Long'
+2025-11-27 11:00:19,846 - core.app - ERROR - Failed to read AdWin buffer: 'ADwin' object has no attribute 'Get_Long'
+2025-11-27 11:02:33,444 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 11:02:33,509 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 11:02:33,509 - core.app - INFO - Initializing application subsystems
+2025-11-27 11:02:33,509 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 11:02:33,512 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 11:02:33,512 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 11:02:33,512 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 11:02:33,545 - gui.main_window - INFO - Main window initialized
+2025-11-27 11:02:33,573 - __main__ - INFO - Application started successfully
+2025-11-27 11:02:36,236 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 11:02:36,237 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 11:02:36,237 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 11:02:36,238 - hardware.adwin_board - INFO - Started process 1
+2025-11-27 11:02:36,238 - core.app - INFO - AdWin connected
+2025-11-27 11:02:40,802 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: 'ADwin' object has no attribute 'Get_Long'
+2025-11-27 11:02:40,802 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: 'ADwin' object has no attribute 'Get_Long'
+2025-11-27 11:02:53,532 - core.app - INFO - Shutting down application
+2025-11-27 11:02:53,533 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 11:02:53,533 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 11:02:55,501 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 11:02:55,573 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 11:02:55,573 - core.app - INFO - Initializing application subsystems
+2025-11-27 11:02:55,573 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 11:02:55,573 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 11:02:55,574 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 11:02:55,574 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 11:02:55,606 - gui.main_window - INFO - Main window initialized
+2025-11-27 11:02:55,631 - __main__ - INFO - Application started successfully
+2025-11-27 11:02:58,349 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 11:02:58,350 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 11:02:58,350 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 11:02:58,351 - hardware.adwin_board - INFO - Started process 1
+2025-11-27 11:02:58,351 - core.app - INFO - AdWin connected
+2025-11-27 11:03:02,810 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: 'ADwin' object has no attribute 'Get_Long'
+2025-11-27 11:03:02,810 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: 'ADwin' object has no attribute 'Get_Long'
+2025-11-27 11:03:04,902 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: 'ADwin' object has no attribute 'Get_Long'
+2025-11-27 11:03:04,903 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: 'ADwin' object has no attribute 'Get_Long'
+2025-11-27 11:04:37,775 - core.app - INFO - Shutting down application
+2025-11-27 11:04:37,776 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 11:04:37,776 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 11:04:40,590 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 11:04:40,665 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 11:04:40,665 - core.app - INFO - Initializing application subsystems
+2025-11-27 11:04:40,665 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 11:04:40,665 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 11:04:40,665 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 11:04:40,665 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 11:04:40,697 - gui.main_window - INFO - Main window initialized
+2025-11-27 11:04:40,728 - __main__ - INFO - Application started successfully
+2025-11-27 11:04:43,684 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 11:04:43,685 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 11:04:43,685 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 11:04:43,686 - hardware.adwin_board - INFO - Started process 1
+2025-11-27 11:04:43,686 - core.app - INFO - AdWin connected
+2025-11-27 11:04:47,898 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: 'ADwin' object has no attribute 'Get_Long'
+2025-11-27 11:04:47,899 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: 'ADwin' object has no attribute 'Get_Long'
+2025-11-27 11:07:35,721 - core.app - INFO - Shutting down application
+2025-11-27 11:07:35,722 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 11:07:35,722 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 11:07:37,645 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 11:07:37,728 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 11:07:37,728 - core.app - INFO - Initializing application subsystems
+2025-11-27 11:07:37,728 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 11:07:37,728 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 11:07:37,728 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 11:07:37,728 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 11:07:37,761 - gui.main_window - INFO - Main window initialized
+2025-11-27 11:07:37,790 - __main__ - INFO - Application started successfully
+2025-11-27 11:07:40,636 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 11:07:40,637 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 11:07:40,637 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 11:07:40,638 - hardware.adwin_board - INFO - Started process 1
+2025-11-27 11:07:40,638 - core.app - INFO - AdWin connected
+2025-11-27 11:07:43,811 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: 'ADwin' object has no attribute 'Get_Data_Long'
+2025-11-27 11:07:43,812 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: 'ADwin' object has no attribute 'Get_Data_Long'
+2025-11-27 11:09:56,256 - core.app - INFO - Shutting down application
+2025-11-27 11:09:56,257 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 11:09:56,257 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 11:09:58,219 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 11:09:58,294 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 11:09:58,294 - core.app - INFO - Initializing application subsystems
+2025-11-27 11:09:58,294 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 11:09:58,294 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 11:09:58,294 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 11:09:58,294 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 11:09:58,327 - gui.main_window - INFO - Main window initialized
+2025-11-27 11:09:58,354 - __main__ - INFO - Application started successfully
+2025-11-27 11:10:00,582 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 11:10:00,582 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 11:10:00,582 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 11:10:00,583 - hardware.adwin_board - INFO - Started process 1
+2025-11-27 11:10:00,583 - core.app - INFO - AdWin connected
+2025-11-27 11:10:01,690 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: 'ADwin' object has no attribute 'Get_Data_Long'
+2025-11-27 11:10:01,690 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: 'ADwin' object has no attribute 'Get_Data_Long'
+2025-11-27 12:55:10,921 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 12:55:10,987 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 12:55:10,987 - core.app - INFO - Initializing application subsystems
+2025-11-27 12:55:10,987 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 12:55:10,987 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 12:55:10,987 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 12:55:10,987 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 12:55:11,020 - gui.main_window - INFO - Main window initialized
+2025-11-27 12:55:11,050 - __main__ - INFO - Application started successfully
+2025-11-27 12:55:13,950 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 12:55:13,951 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 12:55:13,951 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 12:55:13,952 - hardware.adwin_board - INFO - Started process 1
+2025-11-27 12:55:13,952 - core.app - INFO - AdWin connected
+2025-11-27 12:55:16,511 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber -100: Protocol error
+2025-11-27 12:55:16,512 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber -100: Protocol error
+2025-11-27 12:55:23,652 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber -100: Protocol error
+2025-11-27 12:55:23,653 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber -100: Protocol error
+2025-11-27 12:55:24,252 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber -100: Protocol error
+2025-11-27 12:55:24,253 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber -100: Protocol error
+2025-11-27 12:55:24,453 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber -100: Protocol error
+2025-11-27 12:55:24,454 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber -100: Protocol error
+2025-11-27 12:55:24,648 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber -100: Protocol error
+2025-11-27 12:55:24,649 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber -100: Protocol error
+2025-11-27 12:56:53,394 - core.app - INFO - Shutting down application
+2025-11-27 12:56:53,395 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 12:56:53,395 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 12:57:03,694 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 12:57:03,765 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 12:57:03,765 - core.app - INFO - Initializing application subsystems
+2025-11-27 12:57:03,765 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 12:57:03,765 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 12:57:03,765 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 12:57:03,765 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 12:57:03,797 - gui.main_window - INFO - Main window initialized
+2025-11-27 12:57:03,825 - __main__ - INFO - Application started successfully
+2025-11-27 12:57:12,247 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 12:57:12,247 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 12:57:12,248 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 12:57:12,248 - hardware.adwin_board - INFO - Started process 1
+2025-11-27 12:57:12,249 - core.app - INFO - AdWin connected
+2025-11-27 12:57:14,350 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:14,351 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:22,057 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:22,057 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:22,669 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:22,669 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:22,919 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:22,919 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:23,135 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:23,135 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:23,339 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:23,340 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:23,532 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:23,533 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:23,803 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:57:23,803 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 12:59:45,078 - core.app - INFO - Shutting down application
+2025-11-27 12:59:45,079 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 12:59:45,079 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 12:59:49,225 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 12:59:49,303 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 12:59:49,303 - core.app - INFO - Initializing application subsystems
+2025-11-27 12:59:49,303 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 12:59:49,303 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 12:59:49,303 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 12:59:49,303 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 12:59:49,335 - gui.main_window - INFO - Main window initialized
+2025-11-27 12:59:49,365 - __main__ - INFO - Application started successfully
+2025-11-27 12:59:58,683 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 12:59:58,683 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 12:59:58,683 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 12:59:58,684 - hardware.adwin_board - INFO - Started process 1
+2025-11-27 12:59:58,684 - core.app - INFO - AdWin connected
+2025-11-27 13:02:48,487 - core.app - INFO - Shutting down application
+2025-11-27 13:02:48,487 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 13:02:48,488 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 13:02:53,827 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:02:53,907 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:02:53,907 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:02:53,907 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:02:53,907 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:02:53,907 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:02:53,907 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:02:53,940 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:02:53,962 - __main__ - INFO - Application started successfully
+2025-11-27 13:02:59,501 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:02:59,502 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:02:59,502 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 13:02:59,503 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 13:02:59,503 - core.app - INFO - AdWin connected
+2025-11-27 13:03:02,505 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:03:02,506 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:04:25,982 - core.app - INFO - Shutting down application
+2025-11-27 13:04:25,983 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 13:04:25,983 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 13:04:37,739 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:04:37,811 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:04:37,811 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:04:37,811 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:04:37,811 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:04:37,811 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:04:37,811 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:04:37,844 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:04:37,873 - __main__ - INFO - Application started successfully
+2025-11-27 13:04:41,530 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:04:41,530 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:04:41,531 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 13:04:41,532 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 13:04:41,532 - core.app - INFO - AdWin connected
+2025-11-27 13:04:44,284 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: ADwin.GetData_Long() takes 4 positional arguments but 5 were given
+2025-11-27 13:04:44,285 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: ADwin.GetData_Long() takes 4 positional arguments but 5 were given
+2025-11-27 13:05:44,043 - core.app - INFO - Shutting down application
+2025-11-27 13:05:44,044 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 13:05:44,044 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 13:05:46,164 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:05:46,233 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:05:46,233 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:05:46,233 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:05:46,233 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:05:46,233 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:05:46,233 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:05:46,266 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:05:46,293 - __main__ - INFO - Application started successfully
+2025-11-27 13:05:48,822 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:05:48,823 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:05:48,823 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 13:05:48,824 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 13:05:48,824 - core.app - INFO - AdWin connected
+2025-11-27 13:05:50,504 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:05:50,504 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:05:52,932 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:05:52,932 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:05:53,473 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:05:53,474 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:05:53,695 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:05:53,695 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:05:53,889 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:05:53,890 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:07:34,835 - core.app - INFO - Shutting down application
+2025-11-27 13:07:34,836 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 13:07:34,836 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 13:07:37,287 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:07:37,358 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:07:37,358 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:07:37,359 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:07:37,359 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:07:37,359 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:07:37,359 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:07:37,391 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:07:37,416 - __main__ - INFO - Application started successfully
+2025-11-27 13:07:41,007 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:07:41,007 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:07:41,007 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 13:07:41,008 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 13:07:41,008 - core.app - INFO - AdWin connected
+2025-11-27 13:07:45,023 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: 'ADwin' object has no attribute 'Data_Get_Long'
+2025-11-27 13:07:45,023 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: 'ADwin' object has no attribute 'Data_Get_Long'
+2025-11-27 13:15:07,091 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:15:07,164 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:15:07,164 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:15:07,165 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:15:07,165 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:15:07,165 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:15:07,165 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:15:07,197 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:15:07,222 - __main__ - INFO - Application started successfully
+2025-11-27 13:15:10,194 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:15:10,194 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:15:10,194 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 13:15:10,195 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 13:15:10,195 - core.app - INFO - AdWin connected
+2025-11-27 13:15:12,783 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:15:12,784 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:16:01,911 - core.app - INFO - Shutting down application
+2025-11-27 13:16:01,912 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 13:16:01,912 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 13:16:04,252 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:16:04,322 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:16:04,322 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:16:04,322 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:16:04,322 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:16:04,322 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:16:04,322 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:16:04,355 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:16:04,380 - __main__ - INFO - Application started successfully
+2025-11-27 13:16:06,933 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:16:06,934 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:16:07,202 - hardware.adwin_board - ERROR - Failed to load process: Function Load_Process, errorNumber 2: Timeout error on reading from the ADwin-system.
+2025-11-27 13:16:07,468 - hardware.adwin_board - ERROR - Failed to start process: Function Start_Process, errorNumber 2: Timeout error on reading from the ADwin-system.
+2025-11-27 13:16:07,468 - core.app - INFO - AdWin connected
+2025-11-27 13:16:42,761 - core.app - INFO - Shutting down application
+2025-11-27 13:16:42,761 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 13:23:45,837 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:23:45,903 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:23:45,903 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:23:45,903 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:23:45,903 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:23:45,903 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:23:45,903 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:23:45,935 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:23:45,961 - __main__ - INFO - Application started successfully
+2025-11-27 13:23:48,972 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:23:48,972 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:23:48,972 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 13:23:48,973 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 13:23:49,474 - core.app - INFO - AdWin connected
+2025-11-27 13:23:52,857 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:23:52,857 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:25:27,987 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:25:28,055 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:25:28,055 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:25:28,055 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:25:28,055 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:25:28,055 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:25:28,055 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:25:28,088 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:25:28,112 - __main__ - INFO - Application started successfully
+2025-11-27 13:25:30,667 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:25:30,668 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:25:30,668 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 13:25:30,669 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 13:25:31,170 - core.app - INFO - AdWin connected
+2025-11-27 13:25:32,484 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: name 'result' is not defined
+2025-11-27 13:25:32,485 - hardware.adwin_board - ERROR - Failed to get long DATA_181[1]: name 'result' is not defined
+2025-11-27 13:26:10,030 - core.app - INFO - Shutting down application
+2025-11-27 13:26:10,031 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 13:26:10,031 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 13:26:12,369 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:26:12,442 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:26:12,442 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:26:12,442 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:26:12,442 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:26:12,442 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:26:12,442 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:26:12,474 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:26:12,499 - __main__ - INFO - Application started successfully
+2025-11-27 13:26:15,524 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:26:15,525 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:26:15,525 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 13:26:15,526 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 13:26:16,027 - core.app - INFO - AdWin connected
+2025-11-27 13:26:17,564 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:26:17,565 - hardware.adwin_board - ERROR - Failed to get long DATA_180[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:26:25,018 - hardware.adwin_board - ERROR - Failed to get long DATA_181[3]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:26:25,019 - hardware.adwin_board - ERROR - Failed to get long DATA_180[1]: Function GetData_Long, errorNumber 100: The Data is too small.
+2025-11-27 13:27:28,396 - core.app - INFO - Shutting down application
+2025-11-27 13:27:28,397 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 13:27:28,397 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 13:27:30,847 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:27:30,917 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:27:30,917 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:27:30,918 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:27:30,918 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:27:30,918 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:27:30,918 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:27:30,953 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:27:30,979 - __main__ - INFO - Application started successfully
+2025-11-27 13:27:33,660 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:27:33,662 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:27:33,662 - hardware.adwin_board - INFO - Loaded process: GoldII 16 Channels analog packed.TB9
+2025-11-27 13:27:33,663 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 13:27:34,164 - core.app - INFO - AdWin connected
+2025-11-27 13:29:08,702 - core.app - INFO - Shutting down application
+2025-11-27 13:29:08,702 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 13:29:08,703 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 13:30:07,221 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:30:07,288 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:30:07,288 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:30:07,288 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:30:07,288 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:30:07,288 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:30:07,288 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:30:07,320 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:30:07,344 - __main__ - INFO - Application started successfully
+2025-11-27 13:30:14,181 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:30:14,182 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:30:14,182 - hardware.adwin_board - INFO - Loaded process: GoldII 1 Channel analog.TB9
+2025-11-27 13:30:14,183 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 13:30:14,684 - core.app - INFO - AdWin connected
+2025-11-27 13:30:27,369 - core.app - INFO - Shutting down application
+2025-11-27 13:30:27,370 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 13:30:27,370 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 13:33:09,314 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 13:33:09,391 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 13:33:09,391 - core.app - INFO - Initializing application subsystems
+2025-11-27 13:33:09,391 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 13:33:09,391 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 13:33:09,391 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 13:33:09,391 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 13:33:09,428 - gui.main_window - INFO - Main window initialized
+2025-11-27 13:33:09,456 - __main__ - INFO - Application started successfully
+2025-11-27 13:33:16,899 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 13:33:16,900 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 13:33:16,900 - hardware.adwin_board - INFO - Loaded process: GoldII 1 Channel analog.TB9
+2025-11-27 13:33:16,901 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 13:33:16,901 - core.app - INFO - AdWin connected
+2025-11-27 13:36:07,749 - core.app - INFO - Shutting down application
+2025-11-27 13:36:07,749 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 13:36:07,750 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 15:20:13,321 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 15:20:13,388 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 15:20:13,388 - core.app - INFO - Initializing application subsystems
+2025-11-27 15:20:13,388 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 15:20:13,388 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 15:20:13,388 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 15:20:13,388 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 15:20:13,422 - gui.main_window - INFO - Main window initialized
+2025-11-27 15:20:13,449 - __main__ - INFO - Application started successfully
+2025-11-27 15:20:35,076 - core.app - ERROR - Failed to connect AdWin: Function Boot, errorNumber 2001: Network timeout.
+2025-11-27 15:20:45,112 - core.app - ERROR - Failed to connect AdWin: Function Boot, errorNumber 2001: Network timeout.
+2025-11-27 15:20:49,780 - core.app - INFO - Shutting down application
+2025-11-27 15:20:51,600 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 15:20:51,668 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 15:20:51,669 - core.app - INFO - Initializing application subsystems
+2025-11-27 15:20:51,669 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 15:20:51,669 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 15:20:51,669 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 15:20:51,669 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 15:20:51,700 - gui.main_window - INFO - Main window initialized
+2025-11-27 15:20:51,729 - __main__ - INFO - Application started successfully
+2025-11-27 15:21:07,884 - core.app - ERROR - Failed to connect AdWin: Function Boot, errorNumber 2001: Network timeout.
+2025-11-27 15:21:49,747 - core.app - ERROR - Failed to connect AdWin: Function Boot, errorNumber 2001: Network timeout.
+2025-11-27 15:22:42,957 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 15:22:42,957 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 15:22:42,958 - hardware.adwin_board - INFO - Loaded process: Pro Minimal.TC9
+2025-11-27 15:22:42,958 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 15:22:42,958 - core.app - INFO - AdWin connected
+2025-11-27 16:08:07,743 - core.app - INFO - Shutting down application
+2025-11-27 16:08:07,743 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 16:08:07,743 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 16:09:19,424 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 16:09:19,491 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 16:09:19,491 - core.app - INFO - Initializing application subsystems
+2025-11-27 16:09:19,491 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 16:09:19,491 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 16:09:19,491 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 16:09:19,491 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 16:09:19,524 - gui.main_window - INFO - Main window initialized
+2025-11-27 16:09:19,550 - __main__ - INFO - Application started successfully
+2025-11-27 16:09:25,636 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 16:09:25,637 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 16:09:25,637 - hardware.adwin_board - INFO - Loaded process: Pro Minimal.TC9
+2025-11-27 16:09:25,638 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 16:09:25,638 - core.app - INFO - AdWin connected
+2025-11-27 16:11:32,578 - core.app - INFO - Shutting down application
+2025-11-27 16:11:32,578 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 16:11:32,578 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 16:12:35,761 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 16:12:35,831 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 16:12:35,832 - core.app - INFO - Initializing application subsystems
+2025-11-27 16:12:35,832 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 16:12:35,832 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 16:12:35,832 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 16:12:35,832 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 16:12:35,864 - gui.main_window - INFO - Main window initialized
+2025-11-27 16:12:35,889 - __main__ - INFO - Application started successfully
+2025-11-27 16:12:38,707 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 16:12:38,708 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 16:12:38,708 - core.app - ERROR - Failed to connect AdWin: 'AdWinGoldIII' object has no attribute 'Set_Processdelay'
+2025-11-27 16:13:53,077 - core.app - INFO - Shutting down application
+2025-11-27 16:13:53,077 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 16:13:55,731 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 16:13:55,800 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 16:13:55,800 - core.app - INFO - Initializing application subsystems
+2025-11-27 16:13:55,800 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 16:13:55,800 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 16:13:55,800 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 16:13:55,800 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 16:13:55,831 - gui.main_window - INFO - Main window initialized
+2025-11-27 16:13:55,860 - __main__ - INFO - Application started successfully
+2025-11-27 16:13:59,240 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 16:13:59,240 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 16:13:59,241 - hardware.adwin_board - INFO - Loaded process: Pro Minimal.TC9
+2025-11-27 16:13:59,241 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 16:13:59,241 - core.app - INFO - AdWin connected
+2025-11-27 16:14:32,722 - core.app - INFO - Shutting down application
+2025-11-27 16:14:32,723 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 16:14:32,723 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 16:14:44,907 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 16:14:44,971 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 16:14:44,971 - core.app - INFO - Initializing application subsystems
+2025-11-27 16:14:44,971 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 16:14:44,971 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 16:14:44,971 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 16:14:44,971 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 16:14:45,003 - gui.main_window - INFO - Main window initialized
+2025-11-27 16:14:45,027 - __main__ - INFO - Application started successfully
+2025-11-27 16:14:48,885 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 16:14:48,885 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 16:14:48,885 - hardware.adwin_board - INFO - Loaded process: Pro Minimal.TC9
+2025-11-27 16:14:48,886 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 16:14:48,886 - core.app - INFO - AdWin connected
+2025-11-27 16:18:31,237 - core.app - INFO - Shutting down application
+2025-11-27 16:18:31,238 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 16:18:31,238 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 16:18:33,476 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 16:18:33,544 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 16:18:33,544 - core.app - INFO - Initializing application subsystems
+2025-11-27 16:18:33,544 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 16:18:33,544 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 16:18:33,544 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 16:18:33,544 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 16:18:33,580 - gui.main_window - INFO - Main window initialized
+2025-11-27 16:18:33,607 - __main__ - INFO - Application started successfully
+2025-11-27 16:18:37,506 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 16:18:37,506 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 16:18:37,510 - hardware.adwin_board - INFO - Loaded process: Pro Minimal.TC9
+2025-11-27 16:18:37,511 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 16:18:37,511 - core.app - INFO - AdWin connected
+2025-11-27 16:22:19,497 - core.app - INFO - Shutting down application
+2025-11-27 16:22:19,498 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 16:22:19,498 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 16:22:23,652 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 16:22:23,723 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 16:22:23,723 - core.app - INFO - Initializing application subsystems
+2025-11-27 16:22:23,723 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 16:22:23,723 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 16:22:23,723 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 16:22:23,723 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 16:22:23,755 - gui.main_window - INFO - Main window initialized
+2025-11-27 16:22:23,783 - __main__ - INFO - Application started successfully
+2025-11-27 16:22:26,866 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 16:22:26,867 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 16:22:26,871 - hardware.adwin_board - INFO - Loaded process: Pro Minimal.TC9
+2025-11-27 16:22:26,871 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 16:22:26,871 - core.app - INFO - AdWin connected
+2025-11-27 16:22:49,550 - core.app - INFO - Shutting down application
+2025-11-27 16:22:49,551 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 16:22:49,551 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 16:23:04,029 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 16:23:04,098 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 16:23:04,098 - core.app - INFO - Initializing application subsystems
+2025-11-27 16:23:04,098 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 16:23:04,098 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 16:23:04,098 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 16:23:04,098 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 16:23:04,129 - gui.main_window - INFO - Main window initialized
+2025-11-27 16:23:04,152 - __main__ - INFO - Application started successfully
+2025-11-27 16:23:07,561 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 16:23:07,561 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 16:23:07,566 - hardware.adwin_board - INFO - Loaded process: Pro Minimal.TC9
+2025-11-27 16:23:07,566 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 16:23:07,566 - core.app - INFO - AdWin connected
+2025-11-27 16:23:14,082 - core.app - INFO - Shutting down application
+2025-11-27 16:23:14,083 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 16:23:14,083 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 16:23:20,556 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 16:23:20,621 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 16:23:20,621 - core.app - INFO - Initializing application subsystems
+2025-11-27 16:23:20,621 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 16:23:20,621 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 16:23:20,621 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 16:23:20,621 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 16:23:20,652 - gui.main_window - INFO - Main window initialized
+2025-11-27 16:23:20,680 - __main__ - INFO - Application started successfully
+2025-11-27 16:23:23,190 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 16:23:23,190 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 16:23:23,195 - hardware.adwin_board - INFO - Loaded process: Pro Minimal.TC9
+2025-11-27 16:23:23,196 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 16:23:23,196 - core.app - INFO - AdWin connected
+2025-11-27 16:23:27,865 - core.app - INFO - Shutting down application
+2025-11-27 16:23:27,866 - hardware.adwin_board - INFO - Stopped process 1
+2025-11-27 16:23:27,866 - hardware.adwin_board - INFO - Disconnected from AdWin
+2025-11-27 16:23:38,008 - __main__ - INFO - Starting Lab Control Software
+2025-11-27 16:23:38,075 - core.config_manager - INFO - Loaded configuration from config.yaml
+2025-11-27 16:23:38,075 - core.app - INFO - Initializing application subsystems
+2025-11-27 16:23:38,075 - processing.pipeline - INFO - Processing pipeline using device: cpu
+2025-11-27 16:23:38,075 - processing.pipeline - INFO - Added processor: background_subtraction
+2025-11-27 16:23:38,075 - processing.pipeline - INFO - Added processor: gaussian_filter
+2025-11-27 16:23:38,075 - processing.pipeline - INFO - Added processor: find_centroids
+2025-11-27 16:23:38,107 - gui.main_window - INFO - Main window initialized
+2025-11-27 16:23:38,131 - __main__ - INFO - Application started successfully
+2025-11-27 16:23:40,868 - hardware.adwin_board - INFO - AdWin module imported successfully
+2025-11-27 16:23:40,868 - hardware.adwin_board - INFO - Connected to AdWin (Processor: T12)
+2025-11-27 16:23:40,873 - hardware.adwin_board - INFO - Loaded process: Pro Minimal.TC9
+2025-11-27 16:23:40,874 - hardware.adwin_board - INFO - Started process 9
+2025-11-27 16:23:40,874 - core.app - INFO - AdWin connected
